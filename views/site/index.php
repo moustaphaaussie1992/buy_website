@@ -56,11 +56,11 @@ IndexAsset::register($this);
                                             <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
                                                 class="icon-bar"></span> <span class="icon-bar"></span></button>
                                         <a href="index.html" class="navbar-brand logo logo-title">
-                                             Original Logo will be placed here  
+                                             Original Logo will be placed here
                                             <span class="logo-icon"><i class="icon icon-search-1 ln-shadow-logo shape-0"></i> </span>
                                             BOOT<span>CLASSIFIED </span> </a></div>
                                     <div class="navbar-collapse collapse">
-            
+
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a href="login.html">Login</a></li>
                                             <li><a href="signup.html">Signup</a></li>
@@ -68,9 +68,9 @@ IndexAsset::register($this);
                                                                    href="post-ads.html">Post Free Add</a></li>
                                         </ul>
                                     </div>
-                                    /.nav-collapse 
+                                    /.nav-collapse
                                 </div>
-                                 /.container-fluid 
+                                 /.container-fluid
                             </nav>
                         </div>-->
             <!-- /.header -->
@@ -122,13 +122,13 @@ IndexAsset::register($this);
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
                                 <a href="category.html"><img src="<?= Url::base() ?>/images/category/car-2.jpg" class="img-responsive" alt="img">
-                                    <h6> Automobiles </h6></a>
+                                    <h6> Vehicles </h6></a>
                             </div>
 
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/laptop-2.jpg" class="img-responsive"
-                                                             alt="img"> <h6> Laptops </h6></a>
-                            </div>
+                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/laptop-2.jpg" class="img-responsive"
+                                                                                         alt="img"> <h6> Laptops </h6></a>
+                                                        </div>-->
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
                                 <a href="category.html"><img src="<?= Url::base() ?>/images/category/mobile.jpg" class="img-responsive" alt="img">
@@ -140,14 +140,14 @@ IndexAsset::register($this);
                                         Electronics </h6></a>
                             </div>
 
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/hdd.jpg" class="img-responsive" alt="img">
-                                    <h6> Computer Accessories </h6></a>
-                            </div>
+                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/hdd.jpg" class="img-responsive" alt="img">
+                                                                <h6> Computer Accessories </h6></a>
+                                                        </div>-->
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
                                 <a href="category.html"><img src="<?= Url::base() ?>/images/category/house.jpg" class="img-responsive" alt="img">
-                                    <h6> Real Estate </h6></a>
+                                    <h6> Properties </h6></a>
                             </div>
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
@@ -155,10 +155,10 @@ IndexAsset::register($this);
                                                              class="img-responsive" alt="img"> <h6> Home Appliances </h6></a>
                             </div>
 
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/camera.jpg" class="img-responsive" alt="img">
-                                    <h6> Cameras </h6></a>
-                            </div>
+                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/camera.jpg" class="img-responsive" alt="img">
+                                                                <h6> Cameras </h6></a>
+                                                        </div>-->
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
                                 <a href="category.html"><img src="<?= Url::base() ?>/images/category/fashion.jpg" class="img-responsive" alt="img">
@@ -178,6 +178,25 @@ IndexAsset::register($this);
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
                                 <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
                                     <h6> Home & Furniture </h6></a>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                    <h6> Pets </h6></a>
+                            </div>
+
+
+                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                    <h6> Services </h6></a>
+                            </div>
+
+                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                    <h6> Business and Industrial </h6></a>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                    <h6> Hobbies, Music, Art & Books </h6></a>
                             </div>
 
                         </div>
