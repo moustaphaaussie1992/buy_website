@@ -12,7 +12,7 @@ IndexAsset::register($this);
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         Fav and touch icons 
+         Fav and touch icons
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -210,22 +210,22 @@ JSRegister::end();
                             <h6> Home & Furniture </h6></a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/pets.png" class="img-responsive" alt="img">
                             <h6> Pets </h6></a>
                     </div>
 
 
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/services.jpg" class="img-responsive" alt="img">
                             <h6> Services </h6></a>
                     </div>
 
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/industrial.png" class="img-responsive" alt="img">
                             <h6> Business and Industrial </h6></a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/arts.jpg" class="img-responsive" alt="img">
                             <h6> Hobbies, Music, Art & Books </h6></a>
                     </div>
 
