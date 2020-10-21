@@ -15,6 +15,8 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
     <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
         <meta charset="<?= Yii::$app->charset ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +66,7 @@ AppAsset::register($this);
                 ])
                 ?>
                 <?= Alert::widget() ?>
-<?= $content ?>
+                <?= $content ?>
             </div>
         </div>
 
@@ -76,7 +78,7 @@ AppAsset::register($this);
             </div>
         </footer>
 
-<?php $this->endBody() ?>
+        <?php $this->endBody() ?>
     </body>
 </html>
 <?php $this->endPage() ?>
