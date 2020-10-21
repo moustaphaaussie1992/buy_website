@@ -12,7 +12,7 @@ IndexAsset::register($this);
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         Fav and touch icons 
+         Fav and touch icons
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -98,100 +98,7 @@ JSRegister::end();
                                                            href="post-ads.html">Post Free Add</a></li>
                                 </ul>
                             </div>
-                        </div>-->
-            <!-- /.intro -->
-
-            <div class="main-container">
-                <div class="container">
-
-                    <div class="col-lg-12 content-box ">
-                        <div class="row row-featured row-featured-category">
-                            <div class="col-lg-12  box-title no-border">
-                                <div class="inner"><h2><span>Browse by</span>
-                                        Category <a href="category.html" class="sell-your-item"> View more <i
-                                                class="  icon-th-list"></i> </a></h2>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/car-2.jpg" class="img-responsive" alt="img">
-                                    <h6> Vehicles </h6></a>
-                            </div>
-
-                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/laptop-2.jpg" class="img-responsive"
-                                                                                         alt="img"> <h6> Laptops </h6></a>
-                                                        </div>-->
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/mobile.jpg" class="img-responsive" alt="img">
-                                    <h6> Mobiles </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/tv.jpg" class="img-responsive" alt="img"> <h6>
-                                        Electronics </h6></a>
-                            </div>
-
-                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/hdd.jpg" class="img-responsive" alt="img">
-                                                                <h6> Computer Accessories </h6></a>
-                                                        </div>-->
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/house.jpg" class="img-responsive" alt="img">
-                                    <h6> Properties </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/Home-Electronics-Appliances-2.jpg"
-                                                             class="img-responsive" alt="img"> <h6> Home Appliances </h6></a>
-                            </div>
-
-                            <!--                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                                            <a href="category.html"><img src="<?= Url::base() ?>/images/category/camera.jpg" class="img-responsive" alt="img">
-                                                                <h6> Cameras </h6></a>
-                                                        </div>-->
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/fashion.jpg" class="img-responsive" alt="img">
-                                    <h6> Fashion & Beauty </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/toy.jpg" class="img-responsive" alt="img">
-                                    <h6> Kids & Baby Products </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/jobs.jpg" class="img-responsive" alt="img">
-                                    <h6> Jobs </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
-                                    <h6> Home & Furniture </h6></a>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/pets.png" class="img-responsive" alt="img">
-                                    <h6> Pets </h6></a>
-                            </div>
-
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/services.jpg" class="img-responsive" alt="img">
-                                    <h6> Services </h6></a>
-                            </div>
-
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/industrial.png" class="img-responsive" alt="img">
-                                    <h6> Business and Industrial </h6></a>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/arts.jpg" class="img-responsive" alt="img">
-                                    <h6> Hobbies, Music, Art & Books </h6></a>
-                            </div>
-
+                            /.nav-collapse
                         </div>
                          /.container-fluid
                     </nav>
@@ -303,22 +210,22 @@ JSRegister::end();
                             <h6> Home & Furniture </h6></a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/pets.png" class="img-responsive" alt="img">
                             <h6> Pets </h6></a>
                     </div>
 
 
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/services.jpg" class="img-responsive" alt="img">
                             <h6> Services </h6></a>
                     </div>
 
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/industrial.png" class="img-responsive" alt="img">
                             <h6> Business and Industrial </h6></a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="<?= Url::base() ?>/images/category/arts.jpg" class="img-responsive" alt="img">
                             <h6> Hobbies, Music, Art & Books </h6></a>
                     </div>
 
