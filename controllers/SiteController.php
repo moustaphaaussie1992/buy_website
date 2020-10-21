@@ -2,12 +2,13 @@
 
 namespace app\controllers;
 
-use app\models\ContactForm;
 use app\models\LoginForm;
 use app\models\UploadForm;
 use Yii;
+use yii\db\Query;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
+use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\web\UploadedFile;
@@ -104,6 +105,33 @@ class SiteController extends Controller {
 
     public function actionCategory() {
         return $this->render('category', [
+        ]);
+    }
+
+    public function actionAdDetails() {
+
+        $adId = 837;
+
+        $ad = (new Query)
+                ->select("ads.id as id,ads.title,ads.description as description,ads.image,ads.price,ads.price_unit,ads.creation_date,places.place_name,ads.phone,clients.name as clientName")
+                ->from("ads")
+                ->join("join", "places", "places.place_id = ads.place")
+                ->join("join", "clients", "ads.user_id = clients.id")
+                ->where(["ads.id" => $adId])
+                ->one();
+
+        $adImages = (new Query)
+                ->select("*")
+                ->from("ads_pictures")
+                ->where(["ads_id" => $adId])
+                ->all();
+
+
+
+        return $this->render('adDetails', [
+                    'ad' => $ad,
+                    'adImages' => $adImages,
+                    'imageUrl' => 'http://5.189.150.68//buy_and_sell_in_lebanon/web/imagesads/'
         ]);
     }
 

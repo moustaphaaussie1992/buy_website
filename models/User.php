@@ -8,7 +8,7 @@ use yii\db\Query;
 use yii\helpers\ArrayHelper;
 use yii\helpers\VarDumper;
 
-class User extends mdm\admin\models\User {
+class User extends \mdm\admin\models\User {
 
     const ROLE_ADMIN = 'Administrator';
 
@@ -26,13 +26,13 @@ class User extends mdm\admin\models\User {
     public function rules() {
 
         return ArrayHelper::merge(parent::rules(), [
-                        ['username', 'filter', 'filter' => 'trim'],
-                        ['username', 'required'],
-                        ['username', 'unique', 'targetClass' => 'app\models\User', 'message' => 'This username has already been taken.'],
-                        ['username', 'string', 'min' => 2, 'max' => 255],
-                        ['password', 'required', 'on' => 'create'],
-                        ['password', 'string', 'min' => 6],
-                        [['role'], 'safe'],
+                    ['username', 'filter', 'filter' => 'trim'],
+                    ['username', 'required'],
+                    ['username', 'unique', 'targetClass' => 'app\models\User', 'message' => 'This username has already been taken.'],
+                    ['username', 'string', 'min' => 2, 'max' => 255],
+                    ['password', 'required', 'on' => 'create'],
+                    ['password', 'string', 'min' => 6],
+                    [['role'], 'safe'],
         ]);
     }
 
