@@ -180,22 +180,22 @@ IndexAsset::register($this);
                                     <h6> Home & Furniture </h6></a>
                             </div>
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/pets.png" class="img-responsive" alt="img">
                                     <h6> Pets </h6></a>
                             </div>
 
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/services.jpg" class="img-responsive" alt="img">
                                     <h6> Services </h6></a>
                             </div>
 
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/industrial.png" class="img-responsive" alt="img">
                                     <h6> Business and Industrial </h6></a>
                             </div>
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/catalog.jpg" class="img-responsive" alt="img">
+                                <a href="category.html"><img src="<?= Url::base() ?>/images/category/arts.jpg" class="img-responsive" alt="img">
                                     <h6> Hobbies, Music, Art & Books </h6></a>
                             </div>
 
