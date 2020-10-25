@@ -64,12 +64,9 @@ JSRegister::begin([
 ]);
 ?>
 
-<script>
 
 
-    (adsbygoogle = window.adsbygoogle || []).push({});
-
-
+(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <?php
 JSRegister::end();
@@ -560,19 +557,22 @@ JSRegister::end();
                             <div class="col-md-4 col-sm-4 ">
                                 <div class="cat-list">
                                     <h3 class="cat-title"><a href="category.html"><i class="fa fa-car ln-shadow"></i>
-                                            Automobiles <span class="count">277,959</span> </a>
+                                            Vehicles<span class="count">277,959</span> </a>
 
                                         <span data-target=".cat-id-1" data-toggle="collapse"
                                               class="btn-cat-collapsed collapsed">   <span
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
                                     <ul class="cat-collapse collapse in cat-id-1">
-                                        <li><a href="category.html">Car Parts &amp; Accessories</a></li>
-                                        <li><a href="category.html">Campervans &amp; Caravans</a></li>
-                                        <li><a href="category.html">Motorbikes &amp; Scooters</a></li>
-                                        <li><a href="category.html">Motorbike Parts &amp; Accessories</a></li>
-                                        <li><a href="category.html">Vans, Trucks &amp; Plant</a></li>
-                                        <li><a href="category.html">Wanted</a></li>
+                                        <li><a href="category.html">Cars for Sale </a></li>
+                                        <li><a href="category.html">Cars for Rent </a></li>
+                                        <li><a href="category.html">Vehicles Accessories </a></li>
+                                        <li><a href="category.html">Spare Parts </a></li>
+                                        <li><a href="category.html">Number Plates </a></li>
+                                        <li><a href="category.html">Motorcycles</a></li>
+                                        <li><a href="category.html">Trucks and Buses</a></li>
+                                        <li><a href="category.html">Boats</a></li>
+                                        <li><a href="category.html">Other Vehicles</a></li>
                                     </ul>
                                 </div>
                                 <div class="cat-list">
@@ -584,14 +584,15 @@ JSRegister::end();
 
 
                                     <ul class="cat-collapse collapse in cat-id-2">
-                                        <li><a href="category.html">House for Rent</a></li>
-                                        <li><a href="category.html">House for Sale </a></li>
-                                        <li><a href="category.html"> Apartments For Sale </a></li>
-                                        <li><a href="category.html">Apartments for Rent </a></li>
-                                        <li><a href="category.html">Farms-Ranches </a></li>
-                                        <li><a href="category.html">Land </a></li>
-                                        <li><a href="category.html">Vacation Rentals </a></li>
-                                        <li><a href="category.html">Commercial Building</a></li>
+                                        <li><a href="category.html">Apartments and Villas for Rent</a></li>
+                                        <li><a href="category.html">Apartments and Villas for Sale </a></li>
+                                        <li><a href="category.html"> Commercial For Sale </a></li>
+                                        <li><a href="category.html">Commercial for Rent </a></li>
+                                        <li><a href="category.html">Chalet and Cabins </a></li>
+                                        <li><a href="category.html">Lands </a></li>
+                                        <li><a href="category.html">Building and Multiple Units </a></li>
+                                        <li><a href="category.html">Rental Wanted</a></li>
+                                        <li><a href="category.html">Rooms for Rent</a></li>
                                     </ul>
                                 </div>
                                 <div class="cat-list">
@@ -603,16 +604,11 @@ JSRegister::end();
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
                                     <ul class="cat-collapse collapse in cat-id-3">
-                                        <li><a href="category.html">Full Time Jobs</a></li>
-                                        <li><a href="category.html">Internet Jobs </a></li>
-                                        <li><a href="category.html">Learn &amp; Earn jobs </a></li>
-                                        <li><a href="category.html"> Manual Labor Jobs </a></li>
-                                        <li><a href="category.html">Other Jobs </a></li>
-                                        <li><a href="category.html">OwnBusiness </a></li>
+                                        <li><a href="category.html">Job Seekers</a></li>
+                                        <li><a href="category.html">Job Available </a></li>
+
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
                                 <div class="cat-list">
                                     <h3 class="cat-title"><a href="category.html"><i
                                                 class="fa fa-briefcase ln-shadow"></i> Services <span
@@ -622,34 +618,147 @@ JSRegister::end();
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
                                     <ul class="cat-collapse collapse in cat-id-4">
-                                        <li><a href="category.html">Building, Home &amp; Removals</a></li>
-                                        <li><a href="category.html">Entertainment</a></li>
-                                        <li><a href="category.html">Health &amp; Beauty</a></li>
-                                        <li><a href="category.html">Miscellaneous</a></li>
-                                        <li><a href="category.html">Property &amp; Shipping</a></li>
-                                        <li><a href="category.html">Tax, Money &amp; Visas</a></li>
-                                        <li><a href="category.html">Telecoms &amp; Computers</a></li>
-                                        <li><a href="category.html">Travel Services &amp; Tours</a></li>
-                                        <li><a href="category.html">Tuition &amp; Lessons</a></li>
+                                        <li><a href="category.html">Home Improvement and Repair</a></li>
+                                        <li><a href="category.html">Personal Services</a></li>
+                                        <li><a href="category.html">Corporate Services</a></li>
+                                        <li><a href="category.html">Vehicle Repair Services</a></li>
+                                        <li><a href="category.html">Transportation and logistics Services</a></li>
+                                        <li><a href="category.html">IT,Design and Printing Services</a></li>
+                                        <li><a href="category.html">Other Services</a></li>
+
                                     </ul>
                                 </div>
                                 <div class="cat-list">
                                     <h3 class="cat-title"><a href="category.html"><i
-                                                class="icon-book-open ln-shadow"></i> Learning <span
+                                                class="glyphicon glyphicon-phone ln-shadow"></i> Mobile phones and Accessories <span
                                                 class="count">26,529</span></a> <span data-target=".cat-id-5"
                                                                               data-toggle="collapse"
                                                                               class="btn-cat-collapsed collapsed">   <span
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
                                     <ul class="cat-collapse collapse in cat-id-5">
-                                        <li><a href="category.html"> Automotive Classes </a></li>
-                                        <li><a href="category.html"> Computer Multimedia Classes </a></li>
-                                        <li><a href="category.html"> Sports Classes </a></li>
-                                        <li><a href="category.html"> Home Improvement Classes </a></li>
-                                        <li><a href="category.html"> Language Classes </a></li>
-                                        <li><a href="category.html"> Music Classes </a></li>
-                                        <li><a href="category.html"> Personal Fitness </a></li>
-                                        <li><a href="category.html"> Other Classes </a></li>
+                                        <li><a href="category.html"> Mobile Phones </a></li>
+                                        <li><a href="category.html"> Mobile Accessories </a></li>
+                                        <li><a href="category.html"> Mobile Numbers </a></li>
+                                        <li><a href="category.html"> Smart Watches </a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4">
+
+
+                                <div class="cat-list">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class="icon-guidedog ln-shadow"></i> Pets <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Animal and Pets Accessories</a></li>
+                                        <li><a href="category.html">Cats</a></li>
+                                        <li><a href="category.html">Dogs</a></li>
+                                        <li><a href="category.html">Birds</a></li>
+                                        <li><a href="category.html">Livestock</a></li>
+                                        <li><a href="category.html">Horses</a></li>
+                                        <li><a href="category.html">Fish</a></li>
+                                        <li><a href="category.html">Other Animals and Pets</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cat-list">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class="glyphicon glyphicon-baby-formula ln-shadow"></i> Kids and Babies <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Toys for Kids</a></li>
+                                        <li><a href="category.html">Strollers and Seats</a></li>
+                                        <li><a href="category.html">Kids and Babies Clothing</a></li>
+                                        <li><a href="category.html">Cribs and Bedroom Furniture</a></li>
+                                        <li><a href="category.html">Bathing Accessories</a></li>
+                                        <li><a href="category.html">Feeding and nursing</a></li>
+                                        <li><a href="category.html">Safety and Monitors</a></li>
+                                        <li><a href="category.html">Others for Kids and Babies</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cat-list">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class="fas fa-running ln-shadow"></i>Sport and Equipments <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Bicycles and Accessories</a></li>
+                                        <li><a href="category.html">Outdoors and Camping</a></li>
+                                        <li><a href="category.html">Gym,Fitness and Fighting sports</a></li>
+                                        <li><a href="category.html">Ball Sports</a></li>
+                                        <li><a href="category.html">Billiard and Similar Games</a></li>
+                                        <li><a href="category.html">Ski and Winter Sports</a></li>
+                                        <li><a href="category.html">Water Sports and Diving</a></li>
+                                        <li><a href="category.html">Tennis and Rocket Sports</a></li>
+                                        <li><a href="category.html">Other Sports</a></li>
+                                    </ul>
+                                </div>
+                                <div class="cat-list ">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class=" fas fa-chair ln-shadow"></i> Home Furniture and Decor <span
+                                                class="count">5,30</span> </a> <span data-target=".cat-id-8"
+                                                                             data-toggle="collapse"
+                                                                             class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-8">
+                                        <li><a href="category.html">Living Room </a></li>
+                                        <li><a href="category.html">Bedroom</a></li>
+                                        <li><a href="category.html">Dining Room </a></li>
+                                        <li><a href="category.html">Kitchen and Kitchenware </a></li>
+                                        <li><a href="category.html">Bathroom</a></li>
+                                        <li><a href="category.html">Home Decoration and Accessories</a></li>
+                                        <li><a href="category.html">Other Home Furniture and Decor</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4   last-column">
+
+                                <div class="cat-list">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class="fa fa-industry ln-shadow"></i> Business and Industrial <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Restaurants Equipment</a></li>
+                                        <li><a href="category.html">Industrial and Construction Equipment</a></li>
+                                        <li><a href="category.html">Medical and Wellbeing Equipment</a></li>
+                                        <li><a href="category.html">Retail and Shop Equipment</a></li>
+                                        <li><a href="category.html">Business Opportunities and Shops Liquidation</a></li>
+                                        <li><a href="category.html">Other Business and Industrial</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="cat-list">
+                                    <h3 class="cat-title"><a href="category.html"><i
+                                                class="glyphicon glyphicon-music ln-shadow"></i>  Hobbies, Music, Art & Books <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
+                                                class=" icon-down-open-big"></span> </span>
+                                    </h3>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Antiques and Collectibles</a></li>
+                                        <li><a href="category.html">Musical Instruments</a></li>
+                                        <li><a href="category.html">Books</a></li>
+                                        <li><a href="category.html">Movies and Music</a></li>
+                                        <li><a href="category.html">Games and Hobies</a></li>
+                                        <li><a href="category.html">Tickets and Vouchers</a></li>
+                                        <li><a href="category.html">Stationary and Study Tools</a></li>
+                                        <li><a href="category.html">Other items</a></li>
                                     </ul>
                                 </div>
                                 <div class="cat-list">
@@ -660,58 +769,30 @@ JSRegister::end();
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
                                     <ul class="cat-collapse collapse in cat-id-6">
-                                        <li><a href="category.html">Pets for Sale</a></li>
-                                        <li><a href="category.html">Petsitters &amp; Dogwalkers</a></li>
-                                        <li><a href="category.html">Equipment &amp; Accessories</a></li>
-                                        <li><a href="category.html">Missing, Lost &amp; Found</a></li>
+                                        <li><a href="category.html">Animal and Pets Accessories</a></li>
+                                        <li><a href="category.html">Cats</a></li>
+                                        <li><a href="category.html">Dogs</a></li>
+                                        <li><a href="category.html">Birds</a></li>
+                                        <li><a href="category.html">Livestock</a></li>
+                                        <li><a href="category.html">Horses</a></li>
+                                        <li><a href="category.html">Fish</a></li>
+                                        <li><a href="category.html">Other Animals and Pets</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4   last-column">
                                 <div class="cat-list">
                                     <h3 class="cat-title"><a href="category.html"><i
-                                                class=" icon-basket-1 ln-shadow"></i> For Sale <span
-                                                class="count">64,526</span></a> <span data-target=".cat-id-7"
-                                                                              data-toggle="collapse"
-                                                                              class="btn-cat-collapsed collapsed">   <span
+                                                class="glyphicon glyphicon-tree-deciduous ln-shadow"></i> Planting and Food <span class="count">42,111</span></a>
+                                        <span data-target=".cat-id-6" data-toggle="collapse"
+                                              class="btn-cat-collapsed collapsed">   <span
                                                 class=" icon-down-open-big"></span> </span>
                                     </h3>
-                                    <ul class="cat-collapse collapse in cat-id-7">
-                                        <li><a href="category.html">Audio &amp; Stereo</a></li>
-                                        <li><a href="category.html">Baby &amp; Kids Stuff</a></li>
-                                        <li><a href="category.html">CDs, DVDs, Games &amp; Books</a></li>
-                                        <li><a href="category.html">Clothes, Footwear &amp; Accessories</a></li>
-                                        <li><a href="category.html">Computers &amp; Software</a></li>
-                                        <li><a href="category.html">Home &amp; Garden</a></li>
-                                        <li><a href="category.html">Music &amp; Instruments</a></li>
-                                        <li><a href="category.html">Office Furniture &amp; Equipment</a></li>
-                                        <li><a href="category.html">Phones, Mobile Phones &amp; Telecoms</a></li>
-                                        <li><a href="category.html">Sports, Leisure &amp; Travel</a></li>
-                                        <li><a href="category.html">Tickets</a></li>
-                                        <li><a href="category.html">TV, DVD &amp; Cameras</a></li>
-                                        <li><a href="category.html">Video Games &amp; Consoles</a></li>
-                                        <li><a href="category.html">Freebies</a></li>
-                                        <li><a href="category.html">Miscellaneous Goods</a></li>
-                                        <li><a href="category.html">Stuff Wanted</a></li>
-                                        <li><a href="category.html">Swap Shop</a></li>
+                                    <ul class="cat-collapse collapse in cat-id-6">
+                                        <li><a href="category.html">Garden</a></li>
+                                        <li><a href="category.html">Food</a></li>
+
                                     </ul>
                                 </div>
-                                <div class="cat-list ">
-                                    <h3 class="cat-title"><a href="category.html"><i
-                                                class=" icon-theatre ln-shadow"></i> Community <span
-                                                class="count">5,30</span> </a> <span data-target=".cat-id-8"
-                                                                             data-toggle="collapse"
-                                                                             class="btn-cat-collapsed collapsed">   <span
-                                                class=" icon-down-open-big"></span> </span>
-                                    </h3>
-                                    <ul class="cat-collapse collapse in cat-id-8">
-                                        <li><a href="category.html">Announcements </a></li>
-                                        <li><a href="category.html">Car Pool - Bike Ride </a></li>
-                                        <li><a href="category.html">Charity - Donate - NGO </a></li>
-                                        <li><a href="category.html">Lost - Found </a></li>
-                                        <li><a href="category.html">Tender Notices </a></li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
