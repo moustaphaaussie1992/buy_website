@@ -48,14 +48,14 @@ IndexAsset::register($this);
     <body>-->
 
 <!-- display_ad -->
-<ins class="adsbygoogle"
+<!--<ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4259799291168125"
      data-ad-slot="2311380138"
      data-ad-format="auto"
      data-full-width-responsive="true">
 
-</ins>
+</ins>-->
 
 <?php
 JSRegister::begin([
@@ -67,7 +67,7 @@ JSRegister::begin([
 <script>
 
 
-    (adsbygoogle = window.adsbygoogle || []).push({});
+//    (adsbygoogle = window.adsbygoogle || []).push({});
 
 
 </script>
