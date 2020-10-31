@@ -62,18 +62,21 @@ class SiteController extends Controller {
      * @return string
      */
     public function actionIndex() {
-        $model = new UploadForm();
 
+        $popularCategories = (new Query)
+                ->select("categories.id as categoryId ,categories.name as categoryName,count(*) as count")
+//                ->select("*")
+                ->from("ads")
+                ->join("join", "sub_categories", "sub_categories.type = ads.ads_type")
+                ->join("join", "categories", "sub_categories.category_id = categories.id")
+                ->groupBy("categories.id")
+                ->orderBy("count DESC")
+                ->all();
 
-        if (Yii::$app->request->isPost) {
-            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
-            if ($model->upload()) {
-                // file is uploaded successfully
-                return;
-            }
-        }
+//        VarDumper::dump($popularCategories, 3, true);
+//        die();
 
-        return $this->render('index', ['model' => $model]);
+        return $this->render('index', ["popularCategories" => $popularCategories]);
     }
 
     /**

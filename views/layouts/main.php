@@ -21,19 +21,23 @@ AppAsset::register($this);
         <?php $this->registerCsrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
+
     </head>
     <body>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- display_ad -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-4259799291168125"
-             data-ad-slot="2311380138"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+
+        <!--        <div align="center">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                 display_ad 
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-4259799291168125"
+                     data-ad-slot="2311380138"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>-->
+        <!--</div>-->
         <?php $this->beginBody() ?>
 
         <div class="wrap">
