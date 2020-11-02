@@ -72,6 +72,9 @@ JSRegister::begin([
 
 </script>
 <?php
+//yii\helpers\VarDumper::dump(Url::toRoute(['site/category']));
+//Url::toRoute(['product/view', 'id' => 42]);
+//die();
 JSRegister::end();
 ?>
 
@@ -145,7 +148,8 @@ JSRegister::end();
                 <div class="row row-featured row-featured-category">
                     <div class="col-lg-12  box-title no-border">
                         <div class="inner"><h2><span>Browse by</span>
-                                Category <a href="category.html" class="sell-your-item"> View more <i
+                                Category 
+                                <a href="<?= Url::toRoute(['site/category']) ?>" class="sell-your-item"> View more <i
                                         class="  icon-th-list"></i> </a></h2>
                         </div>
                     </div>
